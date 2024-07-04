@@ -1,0 +1,36 @@
+.course-div{
+   width: 1180px;
+   margin: auto;
+   height: 240px;
+   background-color: rgb(244,242,237);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   gap: 24px;
+   margin-top: 25px;
+}
+.course-div h3{
+    font-size: 30px;
+    color: rgb(100,86,70);
+}
+.course-indiv{
+    display: flex;
+    margin-top: 6px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.course-indiv img{
+    width: 290px;
+}
+.course-indiv p{
+    font-size: 19px;
+    margin-top: 8px;
+    color: rgb(60,62,66);
+}
+/* .course-indiv strong{
+    color: rgb(49,156,236);
+    font-size: 19px;
+    font-size: 400;
+} */

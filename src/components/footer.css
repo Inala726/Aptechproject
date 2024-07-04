@@ -1,0 +1,32 @@
+
+.gray-footer{
+    background-color: rgb(236,241,247);
+   padding: 45px 50px;
+   margin-top: 40px;
+}
+.gray-footer p {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 25px;
+    color: rgb(58,58,58);
+}
+.gray-footer li{
+    list-style: none;
+    font-size: 18px;
+    padding-top: 10px;
+    width: 270px;
+    color: rgb(57,139,228);
+}
+.privacy-footer{
+    background-color: rgb(28,54,82);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    height: 95px;
+}
+.privacy-footer p{
+    color: white;
+    font-size: 17px;
+}
