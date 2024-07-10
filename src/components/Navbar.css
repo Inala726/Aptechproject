@@ -4,6 +4,31 @@
     align-items: center;
     justify-content: space-between;
 }
+.img-cont img{
+    position: relative;
+}
+.count{
+    position: absolute;
+    top: 0;
+    color: orange;
+    border-radius: 50%;
+    height: 10px;
+    width: 10px;
+}
 .nav-list li{
-    width: 30px;
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.menu{
+    display: none;
+}
+@media screen and (max-width:768px ) {
+    .nav-list li{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
 }

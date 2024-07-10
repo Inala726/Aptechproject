@@ -1,57 +1,60 @@
-
 .card {
-    display: flex;
-    align-items: stretch;
-    border: none;
-    padding: 0;
-    width: 600px; 
-    height: 384px; 
-    background-color: rgb(244, 242, 237);
+  display: flex;
+  align-items: stretch;
+  border: none;
+  padding: 0;
+  width: 600px;
+  height: 350px;
+  background-color: rgb(244, 242, 237);
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .imageContainer {
-    background-color: rgb(234, 231, 221);
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
+  background-color: rgb(234, 231, 221);
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 
 .image {
-    width: 100%;
-    height: auto;
-    max-width: 240px; 
-    max-height: 240px;
-    object-fit: cover;
+  width: 100%;
+  height: auto;
+  max-width: 240px;
+  max-height: 240px;
+  object-fit: cover;
 }
 
 .content {
-    flex: 1;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .title {
-    font-size: 2.4rem; 
-    color: #A0522D;
-    margin-bottom: 10px;
+  font-size: 30px;
+  color: #a0522d;
+  margin-bottom: 10px;
 }
 
 .description {
-    font-size: 1.44rem; 
-    color: #333;
-    margin-bottom: 20px;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #333;
+  margin-bottom: 20px;
 }
 
 .link {
-    color: #FFFFFF;
-    background-color: rgb(37, 62, 89);
-    padding: 10px 20px;
-    text-decoration: none;
-    font-size: 1.44rem; 
-    text-align: center;
-    align-self: flex-start;
+  color: #ffffff;
+  background-color: rgb(37, 62, 89);
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: center;
+  align-self: flex-start;
 }
