@@ -1,5 +1,5 @@
-
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './PlanetCard.module.css';
 
 interface PlanetCardProps {
@@ -18,7 +18,7 @@ const PlanetCard: React.FC<PlanetCardProps> = ({ image, title, description, link
             <div className={styles.content}>
                 <h2 className={styles.title}>{title}</h2>
                 <p className={styles.description}>{description}</p>
-                <a href={link} className={styles.link}>{title} facts →</a>
+                <Link to={link} className={styles.link}>{title} facts →</Link>
             </div>
         </div>
     );
