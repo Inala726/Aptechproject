@@ -1,11 +1,11 @@
  import './footer.css'
-
+ import './fonts.css'
  const Footer = () => {
     return (
         <>
         <footer>
-            <div className='gray-footer'>
-             <p>Latest Buyer’s Guides</p>
+            <div className='gray-footer lato-regular'>
+             <p>Latest Buyer's Guides</p>
              <div>
              <li>How to choose your telescope magnification?</li>
              <li>Best Space (Astronomy) Hoodies for Kids</li>
@@ -20,7 +20,7 @@
              </div>
 
             </div>
-            <div className='privacy-footer'>
+            <div className='privacy-footer lato-regular'>
             <p>© The Nine Planets 1994-2024</p>
             <p className='p-text'>Privacy Policy | Terms & Conditions | Cookies Policy | Affiliate Disclosure</p>
             </div>
