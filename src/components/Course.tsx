@@ -1,5 +1,6 @@
-import './Course.css'
+import './Course.css
 import './fonts.css'
+
 const Course = () => {
     return(
    <>

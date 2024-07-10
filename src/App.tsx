@@ -1,3 +1,5 @@
+import './App.css'
+import Login from './login/login'
 // import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Herosection from "./components/Herosection";
@@ -24,6 +26,7 @@ import Asteroid from "./components/Planetspage/Asteroid";
 import AsteroidBelt from "./components/Planetspage/AsteroidBelt";
 import "./App.css";
 
+
 function App() {
   return (
     <Router>
@@ -32,6 +35,7 @@ function App() {
           path="/"
           element={
             <>
+            <Login/>
               <Herosection
                 heading={"The Nine Planets"}
                 bracket={"(We still love you, Pluto!)"}
