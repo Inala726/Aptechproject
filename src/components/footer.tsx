@@ -22,7 +22,7 @@
             </div>
             <div className='privacy-footer'>
             <p>© The Nine Planets 1994-2024</p>
-            <p>Privacy Policy | Terms & Conditions | Cookies Policy | Affiliate Disclosure</p>
+            <p className='p-text'>Privacy Policy | Terms & Conditions | Cookies Policy | Affiliate Disclosure</p>
             </div>
         </footer>
         </>
