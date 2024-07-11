@@ -73,7 +73,7 @@ function App() {
         <Route path="/moon" element={<Moon />} />
         <Route path="/comet" element={<Comets />} />
         <Route path="/asteroid" element={<Asteroid />} />
-        <Route path="/asteroidbelt" element={<AsteroidBelt />} />
+        <Route path="/asteroid-belt" element={<AsteroidBelt />} />
       </Routes>
     </Router>
   );

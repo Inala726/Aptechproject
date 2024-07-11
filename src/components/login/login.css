@@ -1,183 +1,186 @@
-.darkener{
-    position: relative;
-     height: 100vh;
-     width: 100%;
-     /* top: 0; */
-     /* overflow-y: auto; */
+.darkener {
+  position: relative;
+  /* height: 100vh; */
+  /* width: 100%; */
 }
-/* .darkener::before{
-    content: "";
-    position: absolute;
-    top: 0;
+.second-dark {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.411);
+}
+.form-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.form-cont {
+  width: 620px;
+  height: 410px;
+  border: 1px solid gainsboro;
+  border-radius: 6px;
+  /* background-color: rgba(255, 255, 255, 0.957); */
+  background-color: rgb(254, 254, 254);
+  z-index: 100;
+}
+.inner-form {
+  margin: 13px 13px;
+  height: 345px;
+  border: 2px solid rgb(229, 231, 235);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  background-color: white;
+}
+.inner-form h3 {
+  text-align: center;
+  font-size: 31px;
+  margin-top: 50px;
+  /* width: 440px; */
+}
+.inner-form p {
+  text-align: center;
+  font-size: 16px;
+  width: 480px;
+  margin-top: 15px;
+}
+.text-div {
+  width: 100%;
+}
+.input-box {
+  margin-top: 25px;
+  display: flex;
+}
+.input-box input {
+  width: 370px;
+  height: 55px;
+  border: 2px solid rgb(229, 122, 44);
+  padding-left: 26px;
+  font-size: 17px;
+  font-weight: 400;
+  color: rgb(159, 153, 143);
+  outline: none;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+}
+.input-box input::placeholder {
+  color: rgb(159, 153, 143);
+}
+.input-box button {
+  width: 120px;
+  height: 55px;
+  background-color: rgb(229, 122, 44);
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-top-right-radius: 7px;
+  border-bottom-right-radius: 7px;
+  cursor: pointer;
+}
+.close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 23px;
+}
+.close button {
+  width: 60px;
+  height: 28px;
+  background-color: transparent;
+  border: 1px solid gainsboro;
+  font-size: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.close button:hover {
+  background-color: rgba(247, 245, 245, 0.979);
+}
+.not-open {
+  display: none;
+}
+@media screen and (max-width: 646px) {
+  .form-cont {
+    width: 550px;
+  }
+  .darkener{
     width: 100%;
+  }
+}
+@media screen and (max-width: 572px) {
+  .form-cont {
+    width: 500px;
     height: 100%;
-    background: rgba(0, 0, 0, 0.411);
-} */
-.second-dark{
-    position: absolute;
-    top: 0;
+  }
+  .inner-form {
+    height: 320px;
+  }
+  .input-box input {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 517px) {
+  .form-cont {
+    width: 450px;
+    height: 370px;
+  }
+  .inner-form {
+    height: 300px;
+  }
+  .input-box input {
+    width: 260px;
+  }
+  .inner-form h3 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .text-div {
     width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.411);
-}
-.form-div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-}
-.form-cont{
-    width: 620px;
-    height: 410px;
-    border: 1px solid gainsboro;
-    border-radius: 6px;
-    /* background-color: rgba(255, 255, 255, 0.957); */
-    background-color: rgb(254,254,254);
-    z-index: 100;
-}
-.inner-form{
-    margin: 13px 13px;
-    height: 345px;
-    border: 2px solid rgb(229,231,235);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 5px;
-    background-color: white;
-}
-.inner-form h3{
-    text-align: center;
-    font-size: 31px;
-    margin-top: 50px;
-    /* width: 440px; */
-}
-.inner-form p{
-    text-align: center;
+  }
+  .inner-form p {
     font-size: 16px;
-    width: 480px;
-    margin-top: 15px;
+    width: 100%;
+  }
 }
-.text-div{
-  width: 490px;
+@media screen and (max-width: 457px) {
+  .form-cont {
+    width: 90%;
+    height: 370px;
+  }
+  .inner-form {
+    height: 300px;
+  }
+  .input-box input {
+    width: 100%;
+  }
+  .input-box button {
+    width: max-content;
+    padding: 0px 4px;
+  }
+  .inner-form h3 {
+    font-size: 25px;
+    font-weight: 600;
+  }
+  .text-div {
+    width: 100%;
+  }
+  .inner-form p {
+    font-size: 16px;
+  }
 }
-.input-box{
-    margin-top: 25px;
-    display: flex;
-}
-.input-box input{
-    width: 370px;
-    height: 55px;
-    border: 2px solid rgb(229,122,44);
-    padding-left: 26px;
-    font-size: 17px;
-    font-weight: 400;
-    color: rgb(159,153,143);
-    outline: none;
-    border-top-left-radius: 7px;
-    border-bottom-left-radius: 7px;
-}
-.input-box input::placeholder{
-    color: rgb(159,153,143);
-}
-.input-box button{
-    width: 120px;
-    height: 55px;
-    background-color: rgb(229,122,44);
-    color: white;
-    border: none;
-    font-size: 18px;
-    border-top-right-radius: 7px;
-    border-bottom-right-radius: 7px;
-    cursor: pointer;
-}
-.close{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 23px;
-}
-.close button{
-    width: 60px;
-    height: 28px;
-    background-color: transparent;
-    border: 1px solid gainsboro;
-    font-size: 15px;
-    border-radius: 3px;
-    cursor: pointer;
-}
-.close button:hover{
-    background-color: rgba(247, 245, 245, 0.979);
-}
-.not-open{
-    display: none;
-}
-@media screen and (max-width:646px) {
+@media screen and (max-width: 374px) {
     .form-cont{
-        width: 550px;
-    }
-}
-@media screen and (max-width:572px) {
-    .form-cont{
-        width: 500px;
-        height: 390px;
+        height: max-content;
+        width:100vw;
+        padding-bottom: 10px;
     }
     .inner-form{
-        height: 320px;
-    }
-    .input-box input{
-        width: 320px;
-    }
-}
-@media screen and (max-width:517px) {
-    .form-cont{
-        width: 450px;
-        height: 370px;
-    }
-    .inner-form{
-        height: 300px;
-    }
-    .input-box input{
-        width: 260px;
-    }
-    .inner-form h3{
-        font-size: 25px;
-        font-weight: 600;
-    }
-    .text-div{
-        width: 350px;
-    }
-    .inner-form p{
-        font-size: 16px;
-        width: 350px;
-    }
-}
-@media screen and (max-width:457px) {
-    .form-cont{
-        width: 400px;
-        height: 370px;
-    }
-    .inner-form{
-        height: 300px;
-    }
-    .input-box input{
-        width: 250px;
-    }
-    .input-box button{
-        width: 90px;
-    }
-    .inner-form h3{
-        font-size: 25px;
-        font-weight: 600;
-    }
-    .text-div{
-        width: 350px;
-    }
-    .inner-form p{
-        font-size: 16px;
-        width: 350px;
+        height: max-content;
     }
 }

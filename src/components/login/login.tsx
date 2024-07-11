@@ -5,6 +5,7 @@ import { ChangeEvent, FormEvent, useEffect, useState } from 'react'
 import axios from 'axios'
 import { toast, ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css';
+import '../fonts.css'
 
 interface ILogin {
     Email: string
@@ -63,7 +64,7 @@ const Login = ({ count, setCount }: LoginProps) => {
 
             {show && <div className={open ? 'not-open' : 'form-div'}>
                 <div className='second-dark'> </div>
-                <div className='form-cont'>
+                <div className='form-cont lato-regular'>
                     <div className='inner-form'>
                         <div className='text-div'>
                             <h3>How Long Can You Survive in Space Without a Suit?</h3>
