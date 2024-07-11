@@ -4,7 +4,8 @@
   border: none;
   padding: 0;
   width: 600px;
-  height: 350px;
+  height: 370px;
+  overflow: hidden;
   background-color: rgb(244, 242, 237);
   font-family: "Lato", sans-serif;
   font-weight: 400;
@@ -57,4 +58,29 @@
   font-size: 18px;
   text-align: center;
   align-self: flex-start;
+}
+
+@media (max-width: 768px) {
+  .card {
+    flex-direction: row;
+  }
+}
+
+@media (max-width: 1180px) {
+  .card {
+    width: 97%;
+    height: auto;
+  }
+  .imageContainer {
+    padding: 10px;
+  }
+  .title {
+    font-size: 24px;
+  }
+  .description {
+    font-size: 16px;
+  }
+  .link {
+    font-size: 16px;
+  }
 }

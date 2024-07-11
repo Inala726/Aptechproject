@@ -1,6 +1,7 @@
 .course-div {
     width: 1180px;
     margin: auto;
+    margin-top: 50px;
     height: 240px;
     background-color: rgb(244, 242, 237);
     display: flex;
