@@ -8,7 +8,7 @@ interface SectionProps {
   heading: string;
   bracket?: string;
   paragraph: string;
-  count: number;
+  count?: number;
   setCount?: (count: number) => void;
 }
 
