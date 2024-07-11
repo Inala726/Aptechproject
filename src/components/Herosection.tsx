@@ -9,7 +9,7 @@ interface SectionProps {
   bracket?: string;
   paragraph: string;
   count: number;
-  setCount: (count: number) => void;
+  setCount?: (count: number) => void;
 }
 
 const Herosection = ({ heading, bracket, paragraph, count }: SectionProps) => {
