@@ -11,7 +11,7 @@ interface PlanetCardProps {
 
 const PlanetCard: React.FC<PlanetCardProps> = ({ image, title, description, link }) => {
     return (
-        <div className={styles.card}>
+        <div className={styles.card} >
             <div className={styles.imageContainer}>
                 <img src={image} alt={title} className={styles.image} />
             </div>
